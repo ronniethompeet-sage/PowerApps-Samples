@@ -1,0 +1,143 @@
+/* AI Rating Control - Fluent Design Styling */
+
+.ai-rating-container {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.ai-rating-input-group,
+.ai-rating-output-group {
+    margin-bottom: 16px;
+}
+
+.ai-rating-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #323130;
+}
+
+.ai-rating-input,
+.ai-rating-output {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    resize: vertical;
+}
+
+.ai-rating-input:focus {
+    outline: none;
+    border-width: 2px;
+    box-shadow: 0 0 0 1px currentColor;
+}
+
+.ai-rating-output {
+    font-weight: 500;
+    cursor: default;
+}
+
+.ai-rating-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ai-rating-button:hover {
+    opacity: 0.9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ai-rating-button:active {
+    transform: scale(0.98);
+}
+
+.ai-rating-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ai-rating-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: ai-rating-spin 0.8s linear infinite;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+@keyframes ai-rating-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ai-rating-error {
+    color: #a4262c;
+    font-size: 12px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.ai-rating-error::before {
+    content: "⚠️";
+    margin-right: 4px;
+}
+
+.ai-rating-success {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.ai-rating-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.ai-rating-result-content {
+    flex: 1;
+}
+
+.ai-rating-sentiment {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+.ai-rating-sentiment.positive {
+    color: #107c10;
+}
+
+.ai-rating-sentiment.negative {
+    color: #a4262c;
+}
+
+.ai-rating-sentiment.neutral {
+    color: #605e5c;
+}
+
+.ai-rating-confidence {
+    font-size: 11px;
+    color: #605e5c;
+    margin-top: 4px;
+}

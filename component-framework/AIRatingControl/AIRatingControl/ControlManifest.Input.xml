@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Contoso" constructor="AIRatingControl" version="1.0.0" 
+           display-name-key="AIRating_Display_Key" 
+           description-key="AIRating_Desc_Key" 
+           control-type="standard">
+    
+    <!-- Input text property -->
+    <property name="inputText" display-name-key="InputText_Display_Key" 
+              description-key="InputText_Desc_Key" of-type="SingleLine.Text" 
+              usage="bound" required="true" />
+    
+    <!-- Custom Input Text Box Styling -->
+    <property name="inputBackgroundColor" display-name-key="InputBgColor_Display_Key" 
+              description-key="InputBgColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#ffffff" />
+    
+    <property name="inputTextColor" display-name-key="InputTextColor_Display_Key" 
+              description-key="InputTextColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#323130" />
+    
+    <property name="inputBorderColor" display-name-key="InputBorderColor_Display_Key" 
+              description-key="InputBorderColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#8a8886" />
+    
+    <property name="inputFontSize" display-name-key="InputFontSize_Display_Key" 
+              description-key="InputFontSize_Desc_Key" of-type="Whole.None" 
+              usage="input" default-value="14" />
+    
+    <property name="inputPlaceholder" display-name-key="InputPlaceholder_Display_Key" 
+              description-key="InputPlaceholder_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="Enter text to analyze..." />
+    
+    <!-- Custom Output Text Box Styling -->
+    <property name="outputBackgroundColor" display-name-key="OutputBgColor_Display_Key" 
+              description-key="OutputBgColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#f3f2f1" />
+    
+    <property name="outputTextColor" display-name-key="OutputTextColor_Display_Key" 
+              description-key="OutputTextColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#323130" />
+    
+    <property name="outputBorderColor" display-name-key="OutputBorderColor_Display_Key" 
+              description-key="OutputBorderColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#0078d4" />
+    
+    <property name="outputFontSize" display-name-key="OutputFontSize_Display_Key" 
+              description-key="OutputFontSize_Desc_Key" of-type="Whole.None" 
+              usage="input" default-value="14" />
+    
+    <!-- Button Styling -->
+    <property name="buttonBackgroundColor" display-name-key="ButtonBgColor_Display_Key" 
+              description-key="ButtonBgColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#0078d4" />
+    
+    <property name="buttonTextColor" display-name-key="ButtonTextColor_Display_Key" 
+              description-key="ButtonTextColor_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="#ffffff" />
+    
+    <property name="textBoxHeight" display-name-key="Height_Display_Key" 
+              description-key="Height_Desc_Key" of-type="Whole.None" 
+              usage="input" default-value="200" />
+    
+    <property name="buttonText" display-name-key="ButtonText_Display_Key" 
+              description-key="ButtonText_Desc_Key" of-type="SingleLine.Text" 
+              usage="input" default-value="Analyze with AI Rating" />
+    
+    <!-- Output property for AI result -->
+    <property name="aiResult" display-name-key="AIResult_Display_Key" 
+              description-key="AIResult_Desc_Key" of-type="Multiple" 
+              usage="output" />
+    
+    <!-- Resources -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/AIRatingControl.css" order="1" />
+      <resx path="strings/AIRatingControl.1033.resx" version="1.0.0" />
+    </resources>
+    
+    <!-- Feature usage -->
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

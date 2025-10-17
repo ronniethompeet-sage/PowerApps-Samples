@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Control Display Names -->
+  <data name="AIRating_Display_Key" xml:space="preserve">
+    <value>AI Rating Control</value>
+    <comment>Display name for the AI Rating control</comment>
+  </data>
+  <data name="AIRating_Desc_Key" xml:space="preserve">
+    <value>Custom control for AI-powered text sentiment analysis using the built-in AI Rating model</value>
+    <comment>Description for the AI Rating control</comment>
+  </data>
+  
+  <!-- Input Text Property -->
+  <data name="InputText_Display_Key" xml:space="preserve">
+    <value>Input Text</value>
+    <comment>Input text property display name</comment>
+  </data>
+  <data name="InputText_Desc_Key" xml:space="preserve">
+    <value>Text to be analyzed by the AI Rating model</value>
+    <comment>Input text property description</comment>
+  </data>
+  
+  <!-- Input Styling Properties -->
+  <data name="InputBgColor_Display_Key" xml:space="preserve">
+    <value>Input Background Color</value>
+    <comment>Input text box background color</comment>
+  </data>
+  <data name="InputBgColor_Desc_Key" xml:space="preserve">
+    <value>Background color for the input text box (hex format)</value>
+    <comment>Input background color description</comment>
+  </data>
+  <data name="InputTextColor_Display_Key" xml:space="preserve">
+    <value>Input Text Color</value>
+    <comment>Input text color</comment>
+  </data>
+  <data name="InputTextColor_Desc_Key" xml:space="preserve">
+    <value>Text color for the input text box (hex format)</value>
+    <comment>Input text color description</comment>
+  </data>
+  <data name="InputBorderColor_Display_Key" xml:space="preserve">
+    <value>Input Border Color</value>
+    <comment>Input border color</comment>
+  </data>
+  <data name="InputBorderColor_Desc_Key" xml:space="preserve">
+    <value>Border color for the input text box (hex format)</value>
+    <comment>Input border color description</comment>
+  </data>
+  <data name="InputFontSize_Display_Key" xml:space="preserve">
+    <value>Input Font Size</value>
+    <comment>Input font size</comment>
+  </data>
+  <data name="InputFontSize_Desc_Key" xml:space="preserve">
+    <value>Font size for the input text box in pixels</value>
+    <comment>Input font size description</comment>
+  </data>
+  <data name="InputPlaceholder_Display_Key" xml:space="preserve">
+    <value>Input Placeholder</value>
+    <comment>Input placeholder text</comment>
+  </data>
+  <data name="InputPlaceholder_Desc_Key" xml:space="preserve">
+    <value>Placeholder text shown in the input text box when empty</value>
+    <comment>Input placeholder description</comment>
+  </data>
+  
+  <!-- Output Styling Properties -->
+  <data name="OutputBgColor_Display_Key" xml:space="preserve">
+    <value>Output Background Color</value>
+    <comment>Output text box background color</comment>
+  </data>
+  <data name="OutputBgColor_Desc_Key" xml:space="preserve">
+    <value>Background color for the output text box (hex format)</value>
+    <comment>Output background color description</comment>
+  </data>
+  <data name="OutputTextColor_Display_Key" xml:space="preserve">
+    <value>Output Text Color</value>
+    <comment>Output text color</comment>
+  </data>
+  <data name="OutputTextColor_Desc_Key" xml:space="preserve">
+    <value>Text color for the output text box (hex format)</value>
+    <comment>Output text color description</comment>
+  </data>
+  <data name="OutputBorderColor_Display_Key" xml:space="preserve">
+    <value>Output Border Color</value>
+    <comment>Output border color</comment>
+  </data>
+  <data name="OutputBorderColor_Desc_Key" xml:space="preserve">
+    <value>Border color for the output text box (hex format)</value>
+    <comment>Output border color description</comment>
+  </data>
+  <data name="OutputFontSize_Display_Key" xml:space="preserve">
+    <value>Output Font Size</value>
+    <comment>Output font size</comment>
+  </data>
+  <data name="OutputFontSize_Desc_Key" xml:space="preserve">
+    <value>Font size for the output text box in pixels</value>
+    <comment>Output font size description</comment>
+  </data>
+  
+  <!-- Button Properties -->
+  <data name="ButtonBgColor_Display_Key" xml:space="preserve">
+    <value>Button Background Color</value>
+    <comment>Button background color</comment>
+  </data>
+  <data name="ButtonBgColor_Desc_Key" xml:space="preserve">
+    <value>Background color for the analyze button (hex format)</value>
+    <comment>Button background color description</comment>
+  </data>
+  <data name="ButtonTextColor_Display_Key" xml:space="preserve">
+    <value>Button Text Color</value>
+    <comment>Button text color</comment>
+  </data>
+  <data name="ButtonTextColor_Desc_Key" xml:space="preserve">
+    <value>Text color for the analyze button (hex format)</value>
+    <comment>Button text color description</comment>
+  </data>
+  <data name="ButtonText_Display_Key" xml:space="preserve">
+    <value>Button Text</value>
+    <comment>Button text label</comment>
+  </data>
+  <data name="ButtonText_Desc_Key" xml:space="preserve">
+    <value>Text displayed on the analyze button</value>
+    <comment>Button text description</comment>
+  </data>
+  
+  <!-- Other Properties -->
+  <data name="Height_Display_Key" xml:space="preserve">
+    <value>Text Box Height</value>
+    <comment>Text box height</comment>
+  </data>
+  <data name="Height_Desc_Key" xml:space="preserve">
+    <value>Height of the input and output text boxes in pixels</value>
+    <comment>Text box height description</comment>
+  </data>
+  
+  <!-- AI Result Property -->
+  <data name="AIResult_Display_Key" xml:space="preserve">
+    <value>AI Result</value>
+    <comment>AI analysis result</comment>
+  </data>
+  <data name="AIResult_Desc_Key" xml:space="preserve">
+    <value>JSON result from the AI Rating analysis</value>
+    <comment>AI result description</comment>
+  </data>
+</root>
